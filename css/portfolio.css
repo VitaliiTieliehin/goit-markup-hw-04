@@ -49,8 +49,6 @@
 
 }
 
-
-
 .flex-elements:not(:nth-last-child(-n+3)){
     margin-bottom: 30px;
 }
@@ -65,7 +63,9 @@
     border-left: 1px solid #EEEEEE;
     border-right: 1px solid #EEEEEE;
 }
-
+.card-image{
+    display: block;
+}
 /* projects */
 
 .projects-title{
@@ -96,6 +96,5 @@
 
     
 }
-
 
 

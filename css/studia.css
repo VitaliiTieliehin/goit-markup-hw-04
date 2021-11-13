@@ -1,12 +1,10 @@
-/* hero */
+/* HERO */
 .hero{
     display: flex;
     text-align:center;
     padding-top: 200px;
     padding-bottom: 200px;
-
 }
-
 .hero .hero-title{
     width: 696px;
     margin-left: auto;
@@ -32,6 +30,8 @@
     url(../images/hero/hero.jpg);
     background-repeat: no-repeat;
     background-position: center;
+    
+    
 }
 /* hero-button*/
 .button{
@@ -55,7 +55,7 @@
 }
 
 
-/* section-features*/
+/* SECTION-FEATURES*/
 .features{
     padding-top: 94px;
     padding-bottom: 94px;
@@ -65,13 +65,31 @@
     display: flex;
 
 }
-.feature .item{
+.list-item{
     width: 270px;
 }
-.section-name{
-    display: none;
+.svg-section{
+    display: flex;
+    width: 1200px;
 }
-.features .item +.item{
+.svg-bg{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+    width: 270px;
+    height: 120px;
+    border-radius: 4px;
+    background-color: #F5F4FA;
+}
+.svg-bg+.svg-bg{
+    margin-left: 30px;
+}
+.icon{
+    width: 70px;
+    height: 70px;
+}
+.features .list-item +.list-item{
     margin-left: 30px;
 }
 .features .title{
@@ -98,14 +116,12 @@
 
 
 
-    /* work-section */
+/* WORK-SECTION */
 .work-list{
     display:flex;
 }
-
 .work{
     padding-bottom: 94px;
-
 }
 .work-title{
     color:var(--title-text-color);
@@ -114,29 +130,31 @@
     line-height: 1.17;
     font-weight: 700;
     letter-spacing: 0.03em;
-    /* padding-top: 94px; */
     margin-bottom: 50px;
-
 }
-
 .work-list .example +.example{
     margin-left: 30px;
 }
 
 
 
- /* team-section */
-
+/* TEAM-SECTION */
+.img-site{
+    display: block;
+}
 .team-section{
+    display: flex;
     background-color: #F5F4FA;
     padding-bottom: 94px;
+    border-width: 1600px;
 }
 .team-list{
     display: flex;
     text-align: center;
+    
 
 }
-.team-list .item +.item{
+.team-list .item-card +.item-card{
     margin-left: 30px;
 }
 .team .team-title{
@@ -154,9 +172,6 @@
     font-size: 16px;
     font-weight: 500;
     line-height:1.19 ;
-    letter-spacing: 0.03em;
-   
-
 }
 .team-position{
     padding-top: 10px;
@@ -169,4 +184,79 @@
 .team-name{
     padding-top: 30px;
     padding-bottom: 30px;
+    text-align: center;
+    border-radius:0px 0px 4px 4px;
+    border-bottom: 1px solid #EEEEEE;
+    border-left: 1px solid #EEEEEE;
+    border-right: 1px solid #EEEEEE;
+}
+.item-card{
+    box-shadow: 0px 1px 3px rgba(0,0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+
+}
+
+/* SOCIAL-LINK */
+.social-link-section{
+    display: flex;
+
+}
+.social-icon{
+    fill: currentColor;
+    width: 20px;
+    height: 20px;
+}
+.social-link{
+    width: 44px;
+    height: 44px;
+    background-color: cyan;
+}
+
+
+/* CLIENTS */
+.clients-section{
+    padding-bottom: 76px;
+    align-items: center;
+    justify-content: center;
+}
+.clients{
+    display: flex;
+}
+.clients-title{
+    font-weight: 700;
+    font-style: 36px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    margin-bottom: 50px;
+    text-align: center;
+    color: var(--title-text-color);
+
+}
+
+.client-link{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 170px;
+    height: 92px;
+    border: 1px solid #afb1b8;
+    border-radius: 4px;
+    
+
+}   
+.client-icon{
+    width: 106px;
+    height: 60px;
+    fill: currentColor;
+
+}
+
+.client-link+.client-link{
+    margin-left: 30px;
+}
+.client-link:hover,
+.client-icon:hover{
+    fill:var(--akcen-color-button);
+    
+
 }

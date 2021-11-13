@@ -30,8 +30,22 @@ h1,h2,h3,p,li,ul{
     margin: 0;
     
 }
-a {text-decoration: none;
+a {
+    color: inherit;
+    text-decoration: none;
 } 
+.visually-hidden {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+}
 .container{
     width: 1200px;
     margin-left: auto;
@@ -112,7 +126,6 @@ margin-right: 50px;
 .contact-section .contact-item + .contact-item{
     margin-left: 50px;
 }
-
 .contact-section .link{
     display: block;
     padding-top: 32px;
@@ -147,21 +160,16 @@ margin-right: 50px;
     display: block;
     margin-top: 9px;
 }
-
-
 .footer-link:hover,
 .footer-link:focus{
     color:var(--akcent-color);
 }
-
 .pointer {
     cursor: pointer;
 } 
-
-
-
 .footer-section{
-    display: flex;
+    margin-left: auto;
+    margin-right: auto;
     padding-top: 60px;
     padding-bottom: 60px;
     background-color: #2F303A;

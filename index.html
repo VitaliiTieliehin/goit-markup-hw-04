@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>homework-03</title>
+    <title>homework-04</title>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css">
     <link rel="stylesheet" href="css/common.css">
@@ -41,25 +41,41 @@
         <!-- особенности -->
         <section class="features">
             <div class="container ">
-                <h2 class="section-name">особенности</h2>
-                <ul class="feature list">                
-                    <li class="item">
-                        <h3 class="title">внимание к деталям</h3>
-                        <p class="text">Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
-                    </li>
-                    <li class="item">
-                        <h3 class="title">пунктуальность</h3>
-                        <p class="text">Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p>
-                    </li>
-                    <li class="item">
-                        <h3 class="title">планирование</h3>
-                        <p class="text">Равным образом консультация с широким активом в значительной степени обуславливает.</p>
-                    </li>
-                    <li class="item">
-                        <h3 class="title">современные технологии</h3>
-                        <p class="text">Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
-                    </li>
-                </ul>           
+                <h2 class="visually-hidden">особенности</h2>
+                <div class="svg-section">
+                    <div class="svg-bg">
+                        <svg class="icon"><use href="./images/icon.svg#icon-antenna"></use></svg>
+                    </div>
+                    <div class="svg-bg">
+                        <svg class="icon"><use href="./images/icon.svg#icon-clock"></use></svg>
+                    </div>
+                    <div class="svg-bg">
+                        <svg class="icon"><use href="./images/icon.svg#icon-diagram"></use></svg>
+                    </div>
+                    <div class="svg-bg">
+                        <svg class="icon"><use href="./images/icon.svg#icon-astronaut"></use></svg>
+                    </div>
+                </div>
+                <div>
+                    <ul class="feature list">                
+                        <li class="list-item">
+                            <h3 class="title">внимание к деталям</h3>
+                            <p class="text">Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
+                        </li>
+                        <li class="list-item">
+                            <h3 class="title">пунктуальность</h3>
+                            <p class="text">Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p>
+                        </li>
+                        <li class="list-item">
+                            <h3 class="title">планирование</h3>
+                            <p class="text">Равным образом консультация с широким активом в значительной степени обуславливает.</p>
+                        </li>
+                        <li class="list-item">
+                            <h3 class="title">современные технологии</h3>
+                            <p class="text">Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
+                        </li>
+                    </ul> 
+                </div>
             </div>    
         </section>
         <!-- виды деятельности -->
@@ -78,36 +94,105 @@
             <div class="team container">
                 <h2 class="team-title">Наша команда</h2>
             <ul class="team-list list">
-                <li class="item">
-                    <img src="./images/team/Igor.jpg" alt="фото игорь" width="270" height="260" >
+                <li class="item-card">
+                    <img class="img-site" src="./images/team/Igor.jpg" alt="фото игорь" width="270" height="260" >
                     <div class="team-name">
                         <h3 class="team-card">Игорь Демьяненко</h3>
                         <p class="team-position" lang="en">Product Designer</p>
                     </div>
                 </li>
-                <li class="item">
-                    <img src="./images/team/Olga.jpg" alt="фото ольга" width="270" height="260">
+                <li class="item-card">
+                    <img class="img-site" src="./images/team/Olga.jpg" alt="фото ольга" width="270" height="260">
                     <div class="team-name">
                         <h3 class="team-card">Ольга Репина</h3>
                         <p class="team-position" lang="en">Frontend Developer</p>
                     </div>
                 </li>
-                <li class="item">
-                    <img src="./images/team/Nikolaj.jpg" alt="фото николай" width="270" height="260">
+                <li class="item-card">
+                    <img class="img-site" src="./images/team/Nikolaj.jpg" alt="фото николай" width="270" height="260">
                     <div class="team-name">
                         <h3 class="team-card">Николай Тарасов</h3>
                         <p class="team-position" lang="en">Marketing</p>
                     </div>
                 </li>
-                <li class="item">
-                    <img src="./images/team/Mihail.jpg" alt="фото михаил" width="270" height="260">
+                <li class="item-card">
+                    <img class="img-site" src="./images/team/Mihail.jpg" alt="фото михаил" width="270" height="260">
                     <div class="team-name">
                         <h3 class="team-card">Михаил Ермаков</h3>
                         <p class="team-position" lang="en">UI Designer</p>
+                        <ul class="social-link-section list">
+                            <li class="social-link">
+                                <a href="">
+                                    <svg class="social-icon"><use href="./images/icon.svg#icon-instagram"></use></svg></a>
+                            </li>
+                            <li class="social-link">
+                                <a href="">
+                                    <svg class="social-icon"><use href="./images/icon.svg#icon-twitter"></use></svg></a>
+                            </li>
+                            <li class="social-link">
+                                <a href="">
+                                    <svg class="social-icon"><use href="./images/icon.svg#icon-facebook"></use></svg></a>
+                            </li>
+                            <li class="social-link">
+                                <a href="">
+                                    <svg class="social-icon"><use href="./images/icon.svg#icon-linkedin"></use></svg></a>
+                            </li>
+                        </ul>
                     </div>
                 </li>
             </ul>
             </div>
+        </section>
+
+        <!-- постоянные клиенты -->
+        <section class="clients-section">
+            <div class="container">
+                <h2 class="clients-title">Постоянные клиенты</h2>
+
+
+
+
+                <ul class="clients list">
+
+                    <li class="client-link">
+
+                        <a href="">
+
+                        <svg class="client-icon">
+                            <use href="./images/icon.svg#icon-logo1">
+
+                            </use>
+                        </svg>
+                    </a></li>
+
+
+
+
+
+
+                    <li class="client-link">
+                        <a href="">
+                        <svg class="client-icon"><use href="./images/icon.svg#icon-logo2"></use></svg>
+                    </a></li>
+                    <li class="client-link">
+                        <a href="">
+                        <svg class="client-icon"><use href="./images/icon.svg#icon-logo3"></use></svg>
+                    </a></li>
+                    <li class="client-link">
+                        <a href="">
+                        <svg class="client-icon"><use href="./images/icon.svg#icon-logo4"></use></svg>
+                    </a></li>
+                    <li class="client-link">
+                        <a href="">
+                        <svg class="client-icon"><use href="./images/icon.svg#icon-logo5"></use></svg>
+                    </a></li>
+                    <li class="client-link">
+                        <a href="">
+                        <svg class="client-icon"><use href="./images/icon.svg#icon-logo6"></use></svg>
+                    </a></li>
+                </ul>
+            </div>
+
         </section>
     </main >
     <!-- подвал -->
@@ -123,7 +208,6 @@
     </footer>
     </body>
 </html>
-
 
 
 
