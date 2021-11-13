@@ -195,42 +195,45 @@
 
 /* CLIENTS */
 .clients-section{
-    padding-bottom: 76px;
-    align-items: center;
-    justify-content: center;
-}
-.clients-list{
-    display: flex;
-    justify-content:space-between;
+    padding-bottom: 75px;
 }
 .clients-title{
     font-weight: 700;
-    font-style: 36px;
+    font-size: 36px;
     line-height: 1.17;
     letter-spacing: 0.03em;
     margin-bottom: 50px;
     text-align: center;
-    color: var(--title-text-color);
-
+    color:#212121;
 }
-
-.client-link{
+.clients{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logo-link{
     display: flex;
     align-items: center;
     justify-content: center;
     width: 170px;
     height: 92px;
-    border: 1px solid #afb1b8;
+    fill:var(--primeri-color-logo) ;
+    border: 1px solid var(--primeri-color-logo);
     border-radius: 4px;
-    
+}
 
-}   
-.client-icon{
+.logo-icon{
     width: 106px;
     height: 60px;
-    fill: currentColor;
-    padding-top: 16px;
-
+    color: currentColor;
+}
+.logo-list+.logo-list{
+    margin-left: 10px;
+}
+.logo-link:hover,
+.logo-link:focus{
+    border:1px solid var(--akcent-color);
+    fill: var(--akcent-color);
 }
 
 
@@ -254,6 +257,7 @@
     fill: currentColor;
 
 }
+.social-team:focus,
 .social-team:hover{
     background-color: var(--akcent-color);
     color: var(--primeri-white-color);
