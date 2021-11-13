@@ -10,7 +10,6 @@
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 30px;
-
     color:var(--primeri-white-color);
     font-weight: 900;
     font-size: 44px;
@@ -41,8 +40,6 @@
     text-align: center;
     border-radius: 4px;
     border-style: none;
-
-
     background-color: var(--akcen-color-button);
     color: var(--primeri-white-color);
     font-weight: 700;
@@ -151,7 +148,6 @@
 .team-list{
     display: flex;
     text-align: center;
-    
 
 }
 .team-list .item-card +.item-card{
@@ -181,7 +177,7 @@
     letter-spacing: 0.03em;
 
 }
-.team-name{
+.team-member{
     padding-top: 30px;
     padding-bottom: 30px;
     text-align: center;
@@ -196,22 +192,6 @@
 
 }
 
-/* SOCIAL-LINK */
-.social-link-section{
-    display: flex;
-
-}
-.social-icon{
-    fill: currentColor;
-    width: 20px;
-    height: 20px;
-}
-.social-link{
-    width: 44px;
-    height: 44px;
-    background-color:;
-}
-
 
 /* CLIENTS */
 .clients-section{
@@ -219,8 +199,9 @@
     align-items: center;
     justify-content: center;
 }
-.clients{
+.clients-list{
     display: flex;
+    justify-content:space-between;
 }
 .clients-title{
     font-weight: 700;
@@ -248,15 +229,41 @@
     width: 106px;
     height: 60px;
     fill: currentColor;
+    padding-top: 16px;
 
 }
 
-.client-link+.client-link{
-    margin-left: 30px;
-}
-.client-link:hover,
-.client-icon:hover{
-    fill:var(--akcen-color-button);
-    
 
+
+
+
+/* SOCIAL-LINK*/
+.social-team{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 44px;
+    height: 44px;
+    color:  #AFB1B8;
+    border-radius: 50%;
+
+}
+.social-icon{
+    width: 20px;
+    height: 20px;
+    fill: currentColor;
+
+}
+.social-team:hover{
+    background-color: var(--akcent-color);
+    color: var(--primeri-white-color);
+
+}
+.social-link +.social-link{
+    margin-left: 10px;
+}
+.social-list{
+    display: flex;
+    justify-content: center;
+    padding-top: 16px;
 }

@@ -1,7 +1,3 @@
-.name-section{
-    display: none;
-}
-
 .filtr-project{
     display: flex;
     flex-wrap: wrap;
@@ -17,10 +13,9 @@
     display: flex;
     justify-content: center;
     margin-bottom: 50px;
-
 }
 
-.btn-filtr .item + .item{
+.btn-filtr .btn-item + .btn-item{
     margin-left: 8px;
 }
 .button{
