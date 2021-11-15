@@ -160,7 +160,7 @@ margin-right: 50px;
 
 }
 .adres-section{
-    margin-bottom: 60px;
+    
     margin-top: 20px;
     color: #FFFFFF;
     font-style: normal;
@@ -170,10 +170,10 @@ margin-right: 50px;
     letter-spacing: 0.03em;
 }
 .adres-section .footer-link{
-    color: var(--text-color);
-    margin-top: 9px;
+   margin-top: 9px;
+    color: rgba(255, 255, 255, 0.6);   
     display: block;
-    margin-top: 9px;
+    
 }
 .footer-link:hover,
 .footer-link:focus{
@@ -183,13 +183,20 @@ margin-right: 50px;
     cursor: pointer;
 } 
 .footer-section{
-    margin-left: auto;
-    margin-right: auto;
     padding-top: 60px;
     padding-bottom: 60px;
+    margin-left: auto;
+    margin-right: auto;
     background-color: #2F303A;
     
 }
+
+
+
+
+
+
+
 
 /* HERO */
 .hero{
@@ -374,6 +381,7 @@ margin-right: 50px;
     padding-bottom: 30px;
     text-align: center;
     border-radius:0px 0px 4px 4px;
+    background-color: #fff;
     border-bottom: 1px solid #EEEEEE;
     border-left: 1px solid #EEEEEE;
     border-right: 1px solid #EEEEEE;
@@ -387,7 +395,8 @@ margin-right: 50px;
 
 /* CLIENTS */
 .clients-section{
-    padding-bottom: 75px;
+    padding-top: 94px;
+    padding-bottom: 94px;
 }
 .clients-title{
     font-weight: 700;
@@ -431,10 +440,9 @@ margin-right: 50px;
 
 /*  SOCIAL-LINK-FOOTER */
 .social-connect{
-    justify-content: center;
-    align-content: center;
+    padding-top: 12px;
     margin-left: 70px;
-    display: block;
+   
     
 }
 .social-title-footer{
@@ -444,7 +452,7 @@ margin-right: 50px;
     line-height:1.14 ;
     text-transform: uppercase;
     color: var(--primeri-white-color);
-    margin-bottom: 20px;
+   
 
 }
 
@@ -469,10 +477,11 @@ margin-right: 50px;
     background-color: var(--akcent-color);
 
 }
-.social-list-footer{
+.social-footer{
+    margin-top: 20px;
     display: flex;
     justify-content: center;
-   
+
 }
 .social-link-footer +.social-link-footer{
     margin-left: 10px;
@@ -510,7 +519,7 @@ margin-right: 50px;
 .social-list{
     display: flex;
     justify-content: center;
-    padding-top: 16px;
+    margin-top: 16px;
 }
 
 
@@ -578,7 +587,10 @@ margin-right: 50px;
 }
 .card:hover,
 .card:focus{
-    box-shadow:1px 4px rgba(0, 0, 0, 0.16), 1px 4px rgba(0, 0, 0, 0.16), 0px 1px rgba(0, 0, 0, 0.12);}
+    box-shadow:
+    1px 4px 6px 0px rgba(0, 0, 0, 0.16),
+     1px 4px 4px 0px rgba(0, 0, 0, 0.6),
+     0px 1px 1px 0px rgba(0, 0, 0, 0.12);}
 
 
 .card-title{
